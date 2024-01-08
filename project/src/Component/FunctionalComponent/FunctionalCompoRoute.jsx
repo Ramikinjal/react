@@ -8,6 +8,12 @@ import ControlledComponentInReact from './06ControlledComponentInReact.jsx';
 import MultipleDataComponentInReact from './07MultipleDataComponentInReact.jsx'
 import RestVsSpreadComponentInReact from './08RestVsSpreadComponentInReact.jsx'
 import HooksInFunctionCompo from './09HooksInFunctionalCompo.jsx';
+import UseEffectHooksInFunctionalCompo from './10UseEffectHooksInFunctionalCompo.jsx';
+import UseLayoutEffectHooksInFunctionalCompo from './11UseLayoutEffectHooksInFunctionalCompo.jsx'
+import UseRefEffectHooksInFunctionalCompo from './12UseRefEffectHooksInFunctionalCompo.jsx';
+import UseCallbackHooksInFunctionalCompo from './13UseCallbackHooksInFunctionalCompo.jsx';
+import UseMemoHooksInFunctionalCompo from './14UseMemoHooksInFunctionalCompo.jsx'
+
 const FunctionalComponentRoute = () => {
     const routes = useRoutes([
         {
@@ -38,6 +44,21 @@ const FunctionalComponentRoute = () => {
                 }, {
                     path: "hooksinfunctionalcompo",
                     element: <HooksInFunctionCompo />
+                }, {
+                    path: "useeffectinfunctionalcompo",
+                    element: <UseEffectHooksInFunctionalCompo />
+                }, {
+                    path: "uselayouteffectinfunctionalcompo",
+                    element: <UseLayoutEffectHooksInFunctionalCompo />
+                }, {
+                    path: "usereffectinfunctionalcompo",
+                    element: <UseRefEffectHooksInFunctionalCompo />
+                }, {
+                    path: "usecallbackinfunctionalcompo",
+                    element: <UseCallbackHooksInFunctionalCompo />
+                }, {
+                    path: "usememoinfunctionalcompo",
+                    element: <UseMemoHooksInFunctionalCompo />
                 }
             ]
         }
