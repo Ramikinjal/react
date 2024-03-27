@@ -13,7 +13,7 @@ import {
     MDBDropdownToggle,
     MDBDropdownMenu,
     MDBDropdownItem,
-    MDBCollapse,
+    MDBCollapse
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
